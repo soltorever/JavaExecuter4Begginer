@@ -1,0 +1,43 @@
+# フォーマット：「クラス名,識別名,メソッド,実行回数,引数..」
+# 先頭に「#」を記述するとコメントアウトの扱いになります。
+# 引数で指定できる型はString型、int型、double型のみです。
+# MainクラスのSETTING_FILE_PATH定数を書き換えることで、別の設定ファイルを読み込むこともできます。
+
+# サンプルコード
+Person,John,sayHello,3
+Person,John,eat,1,"寿司",2
+Person,John,grow,1,12.5
+Person,Tom,grow,1,5.5
+Person,Tom,grow,1,2.4
+
+# 練習問題1.
+# Personクラスに好きなメソッドを追加して実行してください。
+# 例えば「曲名を受け取って歌を歌う"sing"」「数式を受け取って計算をする"calculate"」
+# 少し難しいですが「数当てゲーム」を実装して対戦相手になってもらってもいいかもしれません。
+
+
+# 練習問題2. static修飾子のフィールド
+# 以下のコメントアウトを外し、未実装のメソッドを実装してメッセンジャーを動かしてください。
+# MessengerBoxのstatic修飾子がついたmessageListフィールドを使いこなせるかがポイントです。
+
+# トムとジョンのメッセンジャーで入力
+#Messenger,John'sMessenger,input,1
+#Messenger,Tom'sMessenger,input,1
+
+# トムとジョンのメッセンジャーの入力を確認
+#Messenger,John'sMessenger,showInput,1
+#Messenger,Tom'sMessenger,showInput,1
+
+# ジョンのメッセージを送信する
+#Messenger,John'sMessenger,send,1
+#MessageBox,StaticMessageBox,showMessages,1
+
+# トムのメッセージを送信する
+#Messenger,Tom'sMessenger,send,1
+#MessageBox,StaticMessageBox,showMessages,1
+
+# トムとジョンがメッセージを受信する
+#Messenger,John'sMessenger,get,1
+#Messenger,John'sMessenger,get,1
+#MessageBox,StaticMessageBox,showMessages,1
+
