@@ -6,7 +6,7 @@ package targetClass;
 public class Person {
 
 	/** 身長 */
-	private double hight = 155;
+	private double height = 155;
 
 	/**
 	 * 挨拶を表示する
@@ -33,7 +33,7 @@ public class Person {
 	 * @param length 長さ(cm)
 	 */
 	public void grow(double length) {
-		this.hight += length;
-		System.out.println("私は身長が" + this.hight + "cmになった。");
+		this.height += length;
+		System.out.println("私は身長が" + this.height + "cmになった。");
 	}
 }
